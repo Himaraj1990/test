@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cool Breeze Air Conditioner</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to right, #4facfe, #00f2fe);
+            padding: 20px;
+            margin: 0;
+        }
+        .container {
+            max-width: 500px;
+            background: white;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            margin: auto;
+        }
+        h2 {
+            text-align: center;
+            color: #007BFF;
+            margin-bottom: 20px;
+        }
+        .form-group {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 12px;
+        }
+        label {
+            width: 40%;
+            font-size: 14px;
+            font-weight: bold;
+            color: #333;
+        }
+        input, select, textarea {
+            width: 58%;
+            padding: 8px;
+            font-size: 14px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+        textarea {
+            resize: none;
+        }
+        input[type="submit"] {
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+            padding: 10px;
+            width: 100%;
+            border-radius: 5px;
+            margin-top: 15px;
+        }
+        input[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h2>Cool Breeze Air Conditioner</h2>
+        <form action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8&orgId=00D5e000001BBAj" method="POST">
+            
+            <input type="hidden" name="oid" value="00D5e000001BBAj">
+            <input type="hidden" name="retURL" value="https://salesturbo-dev-ed.my.site.com/s/">
+            
+            <div class="form-group">
+                <label for="first_name">First Name</label>
+                <input id="first_name" maxlength="40" name="first_name" type="text" required />
+            </div>
+
+            <div class="form-group">
+                <label for="last_name">Last Name</label>
+                <input id="last_name" maxlength="80" name="last_name" type="text" required />
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input id="email" maxlength="80" name="email" type="email" required />
+            </div>
+
+            <div class="form-group">
+                <label for="phone">Phone</label>
+                <input id="phone" maxlength="40" name="phone" type="tel" required />
+            </div>
+
+            <div class="form-group">
+                <label for="company">Company</label>
+                <input id="company" maxlength="40" name="company" type="text" />
+            </div>
+
+            <div class="form-group">
+                <label for="00N5e00000gkZH1">Interested Product</label>
+                <select id="00N5e00000gkZH1" name="00N5e00000gkZH1">
+                    <option value="">--None--</option>
+                    <option value="Neo Personal Air Cooler">Neo Personal Air Cooler</option>
+                    <option value="Smart Inverter AC">Smart Inverter AC</option>
+                    <option value="Desert Air Cooler">Desert Air Cooler</option>
+                    <option value="Surebreeze 34 Litres Tower Air Cooler">Surebreeze 34L Tower Air Cooler</option>
+                    <option value="Zelus DAC Desert Air Cooler">Zelus DAC Desert Air Cooler</option>
+                    <option value="1.5 Ton Smart Inverter AC">1.5 Ton Smart Inverter AC</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="lead_source">Lead Source</label>
+                <select id="lead_source" name="lead_source">
+                    <option value="">--None--</option>
+                    <option value="Web">Web</option>
+                    <option value="Phone Inquiry">Phone Inquiry</option>
+                    <option value="Partner Referral">Partner Referral</option>
+                    <option value="Purchased List">Purchased List</option>
+                    <option value="Other">Other</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="00N5e00000gkZH6">Comments</label>
+                <textarea id="00N5e00000gkZH6" name="00N5e00000gkZH6" rows="3"></textarea>
+            </div>
+
+            <input type="submit" value="Submit">
+
+        </form>
+    </div>
+
+</body>
+</html>
